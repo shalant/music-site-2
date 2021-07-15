@@ -182,6 +182,13 @@ main {
   display: grid;
   place-items: center;
 }
+
+/* NAVBAR */
+
+.active {
+  background-color: blue;
+}
+
 /*
 =============== 
 Slider
@@ -197,7 +204,7 @@ Slider
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
-  margin-top: 4rem;
+  margin-top: 0.5rem;
 }
 .slide {
   position: absolute;
