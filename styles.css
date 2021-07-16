@@ -91,6 +91,9 @@ img {
   background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
+  width: 100vw;
+  overflow:auto;
+  z-index: 5;
 }
 
 h1,
@@ -185,8 +188,28 @@ main {
 
 /* NAVBAR */
 
+
+
 .active {
   background-color: blue;
+  transition: ease-in-out;
+}
+
+.nav-item:hover {
+  font-size: large;
+}
+
+/* CONTACT FORM */
+
+
+
+/* FOOTER */
+
+.cool-footer {
+  display: flex;
+  height: 2rem;
+  width: 100vw;
+  background: lightgrey;
 }
 
 /*
@@ -204,7 +227,6 @@ Slider
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
-  margin-top: 0.5rem;
 }
 .slide {
   position: absolute;
