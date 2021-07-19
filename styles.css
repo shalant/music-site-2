@@ -201,7 +201,14 @@ main {
 
 /* CONTACT FORM */
 
-
+/* STORE */
+.store-link {
+  height: 50rem;
+  width: 50rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* FOOTER */
 
