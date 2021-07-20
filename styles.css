@@ -196,18 +196,34 @@ main {
 }
 
 .nav-item:hover {
-  font-size: large;
+  
 }
 
 /* CONTACT FORM */
 
 /* STORE */
-.store-link {
+.store-links {
   height: 50rem;
-  width: 50rem;
+  width: 30rem;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  padding-top: 1rem;
+  text-align: center;
+  border: 2px solid grey;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);;
+}
+
+.store-links:hover {
+  font-weight: bold;
+}
+
+p:hover {
+  font-weight: bold;
+}
+
+.grid-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
 }
 
 /* FOOTER */
@@ -217,6 +233,10 @@ main {
   height: 2rem;
   width: 100vw;
   background: lightgrey;
+}
+
+.footer .social a {
+  margin: 0 10px;
 }
 
 /*
