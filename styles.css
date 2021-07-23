@@ -188,15 +188,18 @@ main {
 
 /* NAVBAR */
 
-
-
 .active {
-  background-color: blue;
+  background-color: #659999;
   transition: ease-in-out;
+  font-size: larger;
+  font-weight: bolder;
 }
 
 .nav-item:hover {
-  
+  background-color: #f4791f;
+  transition: ease-in;
+  font-size: large;
+  font-weight: bold;
 }
 
 /* CONTACT FORM */
