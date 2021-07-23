@@ -45,7 +45,7 @@ Variables
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
-  --transition: all 0.3s linear;
+  --transition: all 0.s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -190,14 +190,16 @@ main {
 
 .active {
   background-color: #659999;
-  transition: ease-in-out;
+  transition: ease-in-out 2s;
   font-size: larger;
   font-weight: bolder;
+  border-radius: 3px;
+
 }
 
 .nav-item:hover {
   background-color: #f4791f;
-  transition: ease-in;
+  transition: ease-in-out .5s;
   font-size: large;
   font-weight: bold;
 }
