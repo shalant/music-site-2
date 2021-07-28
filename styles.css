@@ -196,9 +196,13 @@ main {
 /* RESPONSIVE CHANGES */
 
 @media screen and (max-width: 768px) {
-  cool-form {
+  .cool-form {
     
   }
+  .betterthantv {
+    max-height: 20rem;
+  }
+
 }
 
 
@@ -234,6 +238,10 @@ main {
 /* CONTACT FORM */
 
 /* STORE */
+.store-header {
+  text-align: center;
+}
+
 .store-links {
   height: 50rem;
   width: 30rem;
