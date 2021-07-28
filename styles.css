@@ -150,6 +150,8 @@ p {
     line-height: 1;
   }
 }
+
+
 /*  global classes */
 
 .btn {
@@ -190,6 +192,15 @@ main {
   display: grid;
   place-items: center;
 }
+
+/* RESPONSIVE CHANGES */
+
+@media screen and (max-width: 768px) {
+  cool-form {
+    
+  }
+}
+
 
 /* NAVBAR */
 
@@ -282,9 +293,9 @@ Slider
 */
 
 .slider-container {
-  border: 5px solid var(--clr-primary-5);
+  border: 4px solid black;
   width: 80vw;
-  margin: 0 auto;
+  margin: 2rem auto;
   height: 40vh;
   max-width: 80rem;
   position: relative;
@@ -304,7 +315,8 @@ Slider
 }
 .slide-img {
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
+  margin: auto;
 }
 .slide h1 {
   font-size: 5rem;
