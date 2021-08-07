@@ -80,9 +80,10 @@ ul {
 a {
   text-decoration: none;
 }
-img:not(.person-img) {
+/* img:not(.person-img) { 
   width: 100%;
-}
+ }
+*/
 img {
   display: block;
 }
@@ -151,7 +152,6 @@ p {
   }
 }
 
-
 /*  global classes */
 
 .btn {
@@ -172,7 +172,9 @@ p {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
 /* section */
+
 .section {
   padding: 5rem 0;
 }
@@ -182,29 +184,12 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
-@media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-  }
-}
+
 main {
   min-height: 100vh;
   display: grid;
   place-items: center;
 }
-
-/* RESPONSIVE CHANGES */
-
-@media screen and (max-width: 768px) {
-  .cool-form {
-    
-  }
-  .betterthantv {
-    max-height: 20rem;
-  }
-
-}
-
 
 /* NAVBAR */
 
@@ -226,9 +211,12 @@ main {
 /* INDEX */
 
 .betterthantv {
+  /* position: relative; */
   margin: auto;
-  width: 65vw !important;
-  height: 70vh;
+  left: 20%;
+  right: 20%;
+  align-items: center;
+  width: 50vw;
 }
 
 .header {
@@ -368,18 +356,42 @@ Slider
   color: var(--clr-grey-3);
 }
 
-@media screen and (min-width: 576px) {
+/* RESPONSIVE CHANGES */
+
+@media screen and (max-width: 768px) {
+  
+
+}
+
+@media screen and (min-width: 300px) {
   .slider-container {
     height: 45vh;
   }
+  .cool-form {
+    
+  }
+  
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   .slider-container {
     height: 55vh;
   }
 }
 @media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
   .slider-container {
     height: 65vh;
   }
+  .betterthantv {
+    left: 10%;
+    right: 10%;
+  }
+ 
+
+  .navbar {
+    height: 10vh !important;
+  }
 }
+
