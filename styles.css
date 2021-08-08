@@ -96,10 +96,10 @@ img {
   background: #659999;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 100vh;
+  /* height: 100vh;
   width: 100vw;
   overflow:auto;
-  z-index: 5;
+  z-index: 5; */
 }
 
 h1,
@@ -241,6 +241,14 @@ main {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);;
 }
 
+.store-img {
+  height: 30rem;
+  width: 25rem;
+  left: 10%;
+  right: 10%;
+  align-items: center;
+}
+
 .store-links:hover {
   font-weight: bolder;
 }
@@ -252,9 +260,9 @@ h2:hover {
 }
 
 .grid-container {
-  /* grid-template-columns: 1fr 1fr 1fr;
-  align-items: flex-start; */
-  
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+
 }
 
 /* BIO */
@@ -367,9 +375,9 @@ Slider
   .slider-container {
     height: 45vh;
   }
-  .cool-form {
+  /* .cool-form {
     
-  }
+  } */
   
 }
 @media screen and (min-width: 600px) {
