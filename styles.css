@@ -208,19 +208,25 @@ main {
   font-weight: bold;
 }
 
+.navbar {
+  background-color: lightgrey !important;
+}
+
 /* INDEX */
 
 .betterthantv {
   /* position: relative; */
   margin: auto;
+  padding: 2rem 0 2rem 0;
   left: 20%;
   right: 20%;
   align-items: center;
   width: 50vw;
 }
 
-.header {
+.header-home {
   text-align: center;
+  padding-top: 2rem;
 }
 
 /* CONTACT FORM */
@@ -256,13 +262,11 @@ main {
 h2:hover {
   font-weight: bold;
   color:hsl(360, 67%, 44%)
-
 }
 
 .grid-container {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: flex-start;
-
 }
 
 /* BIO */
@@ -287,7 +291,11 @@ h2:hover {
 }
 
 .footer .social a {
-  margin: 0 10px;
+  margin: 0rem 1px;
+}
+
+.fotter {
+  align-items: center;
 }
 
 /*
@@ -367,19 +375,22 @@ Slider
 /* RESPONSIVE CHANGES */
 
 @media screen and (max-width: 768px) {
-  
-
 }
 
 @media screen and (min-width: 300px) {
   .slider-container {
     height: 45vh;
   }
+  .navbar {
+    height: 10vh !important;
+  }
+  .footer {
+    height: 10vh !important;
+  }
   /* .cool-form {
-    
   } */
-  
 }
+
 @media screen and (min-width: 600px) {
   .slider-container {
     height: 55vh;
@@ -396,8 +407,6 @@ Slider
     left: 10%;
     right: 10%;
   }
- 
-
   .navbar {
     height: 10vh !important;
   }
