@@ -210,6 +210,7 @@ main {
 
 .navbar {
   background-color: lightgrey !important;
+  z-index: 5;
 }
 
 /* INDEX */
