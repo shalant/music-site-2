@@ -96,10 +96,10 @@ img {
   background: #659999;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* height: 100vh;
+  height: 100vh;
   width: 100vw;
   overflow:auto;
-  z-index: 5; */
+  z-index: 1;
 }
 
 h1,
@@ -210,7 +210,7 @@ main {
 
 .navbar {
   background-color: lightgrey !important;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 /* INDEX */
@@ -299,6 +299,10 @@ h2:hover {
   align-items: center;
 }
 
+.footer {
+  background-color: lightgrey !important;
+}
+
 /*
 =============== 
 Slider
@@ -379,14 +383,21 @@ Slider
 }
 
 @media screen and (min-width: 300px) {
+  .page-container {
+    height: 80vh;
+  }
   .slider-container {
     height: 45vh;
   }
   .navbar {
     height: 10vh !important;
   }
-  .footer {
+  .fotter {
     height: 10vh !important;
+  }
+  .betterthantv {
+    height: 70vh;
+    width: 70vw;
   }
   /* .cool-form {
   } */
@@ -395,6 +406,10 @@ Slider
 @media screen and (min-width: 600px) {
   .slider-container {
     height: 55vh;
+  }
+  .betterthantv {
+    height: 90vh;
+    width: 50vw;
   }
 }
 @media screen and (min-width: 992px) {
